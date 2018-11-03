@@ -1,0 +1,1533 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1541166913301,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "36bf4988-937c-4f11-9a5a-9948e9fa76bf",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Pure Storage Capacity Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 315,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "widgetIdReceiver": "e9dc94b9-cb60-4cfa-8e67-cc76a47e9259"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "widgetIdReceiver": "8797424e-8a46-48b7-8d0f-aaace4bb3c54"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "widgetIdReceiver": "aeb2ddc0-39f5-49e9-9897-7663d0f0c055"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "aeb2ddc0-39f5-49e9-9897-7663d0f0c055",
+            "widgetIdReceiver": "b7babfd6-4169-46e8-8551-06a81c547c2f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "aeb2ddc0-39f5-49e9-9897-7663d0f0c055",
+            "widgetIdReceiver": "1de5347f-3f5d-4963-852b-ac7a47fe406f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "widgetIdReceiver": "44283d1b-bbe2-49ad-b803-4681fbf67653"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "44283d1b-bbe2-49ad-b803-4681fbf67653",
+            "widgetIdReceiver": "abbebc5c-0426-4d60-aba5-8ce8443e5ec6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "44283d1b-bbe2-49ad-b803-4681fbf67653",
+            "widgetIdReceiver": "bb4c407f-5ccf-4cca-ac5f-4f51026e86c2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "widgetIdReceiver": "01d2f3fe-9e36-4662-b427-94f07eb49f75"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "01d2f3fe-9e36-4662-b427-94f07eb49f75",
+            "widgetIdReceiver": "3541e909-69c0-4e5e-b4ea-fba6ddd7bbae"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "01d2f3fe-9e36-4662-b427-94f07eb49f75",
+            "widgetIdReceiver": "a9cba866-2ffc-43d5-893f-5633fbe1780c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b79ddb6a-077c-4f07-aa86-b019860fc7d9",
+            "widgetIdReceiver": "b49ef0b7-e7a4-4032-b924-6cde4f62e460"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b79ddb6a-077c-4f07-aa86-b019860fc7d9",
+            "widgetIdReceiver": "0f62a629-fa46-45e3-bdd4-41b8ab3bb754"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Purity Version",
+                  "metricKey": "Details|version",
+                  "metricName": "Details|Version",
+                  "resourceKindId": "resourceKind:id:0_::_"
+               }],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Storage Arrays"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "09b74603-3634-4c66-ad09-ddbf9fe18fec",
+            "states": [{
+               "key": "permResGrid_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_09b74603-3634-4c66-ad09-ddbf9fe18fec",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A177%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A126%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A146%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Pure Storage Arrays",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|capacity",
+                        "metricName": "Capacity|Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|shared_space",
+                        "metricName": "Capacity|Shared Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space_ratio",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|system_space",
+                        "metricName": "Capacity|System Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_provisioned_space",
+                        "metricName": "Capacity|Total Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel24531-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48985-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48985-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9414-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9414-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9414-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|thin_provisioning",
+                        "metricName": "Capacity Efficiency|Thin Provisioning",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9414-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9414-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Pure Array Capacity Scoreboard (for selected Array)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 8,
+               "y": 1
+            },
+            "height": 324,
+            "id": "8797424e-8a46-48b7-8d0f-aaace4bb3c54",
+            "title": "Pure Array Capacity Scoreboard (for selected Array)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel26022-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Array Capacity Usage (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 4,
+               "y": 1
+            },
+            "height": 324,
+            "id": "e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_e9dc94b9-cb60-4cfa-8e67-cc76a47e9259",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Pure Array Capacity Usage (for selected Array)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Serial Number",
+                  "metricKey": "Details|serial_number",
+                  "metricName": "Details|Serial Number",
+                  "resourceKindId": "resourceKind:id:1_::_"
+               }],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Storage Volumes (on selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 23
+            },
+            "height": 266,
+            "id": "aeb2ddc0-39f5-49e9-9897-7663d0f0c055",
+            "states": [{
+               "key": "permResGrid_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_aeb2ddc0-39f5-49e9-9897-7663d0f0c055",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A168%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A290%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AresourceCollectionState%2525255Edirection%2525253Ds%252525253AASC"
+            }],
+            "title": "Pure Storage Volumes (on selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel27672-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Pure Volume",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Volume Usage (for selected Volume)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 4,
+               "y": 23
+            },
+            "height": 266,
+            "id": "b7babfd6-4169-46e8-8551-06a81c547c2f",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b7babfd6-4169-46e8-8551-06a81c547c2f",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Pure Volume Usage (for selected Volume)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|provisioned_space",
+                        "metricName": "Capacity|Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space_ratio",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28622-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|thin_provisioning",
+                        "metricName": "Capacity Efficiency|Thin Provisioning",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7467-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Volume",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Pure Volume Capacity Scoreboard (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 5,
+               "x": 8,
+               "y": 23
+            },
+            "height": 266,
+            "id": "1de5347f-3f5d-4963-852b-ac7a47fe406f",
+            "title": "Pure Volume Capacity Scoreboard (for selected Volume)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Hosts (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 18
+            },
+            "height": 266,
+            "id": "b79ddb6a-077c-4f07-aa86-b019860fc7d9",
+            "states": [{
+               "key": "permResGrid_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b79ddb6a-077c-4f07-aa86-b019860fc7d9",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A313%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A172%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Pure Hosts (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel32095-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:3_::_",
+                     "resourceKindName": "Pure Host Group",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Host Group Capacity Usage (for selected Host Group)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 4,
+               "y": 7
+            },
+            "height": 324,
+            "id": "abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_abbebc5c-0426-4d60-aba5-8ce8443e5ec6",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Pure Host Group Capacity Usage (for selected Host Group)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel43231-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|volume_used_space",
+                     "metricName": "Capacity|Volume Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:4_::_",
+                     "resourceKindName": "Pure Volume Group",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Volume Group Capacity Usage (for selected Volume Group)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 4,
+               "y": 13
+            },
+            "height": 266,
+            "id": "3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_3541e909-69c0-4e5e-b4ea-fba6ddd7bbae",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Pure Volume Group Capacity Usage (for selected Volume Group)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37525-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|provisioned_space",
+                        "metricName": "Capacity|Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37525-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37525-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37525-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37525-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel49512-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel49512-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10502-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10502-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10502-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|thin_provisioning",
+                        "metricName": "Capacity Efficiency|Thin Provisioning",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10502-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10502-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Pure Host Group",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Pure Host Group Capacity Scoreboard (for selected Host Group)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 8,
+               "y": 7
+            },
+            "height": 324,
+            "id": "bb4c407f-5ccf-4cca-ac5f-4f51026e86c2",
+            "title": "Pure Host Group Capacity Scoreboard (for selected Host Group)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Host Groups (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 7
+            },
+            "height": 324,
+            "id": "44283d1b-bbe2-49ad-b803-4681fbf67653",
+            "states": [{
+               "key": "permResGrid_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_44283d1b-bbe2-49ad-b803-4681fbf67653",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A189%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A244%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A149%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Pure Host Groups (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:4_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:4_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Volume Groups (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 13
+            },
+            "height": 266,
+            "id": "01d2f3fe-9e36-4662-b427-94f07eb49f75",
+            "states": [{
+               "key": "permResGrid_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_01d2f3fe-9e36-4662-b427-94f07eb49f75",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A225%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A226%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Pure Volume Groups (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|provisioned_space",
+                        "metricName": "Capacity|Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_used_space",
+                        "metricName": "Capacity|Volume Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|thin_provisioning",
+                        "metricName": "Capacity Efficiency|Thin Provisioning",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel47425-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Pure Volume Group",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "pure Volume Group Capacity Scoreboard (for selected Volume Group)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 5,
+               "x": 8,
+               "y": 13
+            },
+            "height": 266,
+            "id": "a9cba866-2ffc-43d5-893f-5633fbe1780c",
+            "title": "pure Volume Group Capacity Scoreboard (for selected Volume Group)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel5486-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:2_::_",
+                     "resourceKindName": "Pure Host",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Host Capacity Usage"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 4,
+               "y": 18
+            },
+            "height": 266,
+            "id": "b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_36bf4988-937c-4f11-9a5a-9948e9fa76bf_b49ef0b7-e7a4-4032-b924-6cde4f62e460",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Pure Host Capacity Usage",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|provisioned_space",
+                        "metricName": "Capacity|Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-6",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-7",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Data Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-10",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|thin_provisioning",
+                        "metricName": "Capacity Efficiency|Thin Provisioning",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-11",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6444-12",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity Efficiency|total_reduction_ratio",
+                        "metricName": "Capacity Efficiency|Total Reduction",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Pure Host",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Pure Host Capacity Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 5,
+               "x": 8,
+               "y": 18
+            },
+            "height": 266,
+            "id": "0f62a629-fa46-45e3-bdd4-41b8ab3bb754",
+            "title": "Pure Host Capacity Scoreboard",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+      },
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_host"
+      },
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_volume_group"
+      },
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_volume"
+      },
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_host_group"
+      }
+   ]},
+   "uuid": "e277f1a3-2b46-449f-8555-0b234cece391"
+}
